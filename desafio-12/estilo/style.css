@@ -1,5 +1,16 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&family=Vibur&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2? family= Sriracha & display=swap');
+
+:root {
+    --fonte1: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte2: 'Vibur', cursive;
+    --fonte3: 'Sriracha', cursiva;
+}
+
 * {
     margin: 0px;
     padding: 0px;
@@ -8,16 +19,19 @@
 html, body {
     min-height: 100vh;
     background-color: darkgray;
+    font-family: var(--fonte1);
 }
 
 header {
     background-color: black;
     color: white;
     text-align: center;
+    font-size: 3vw; 
 }
 
 header h1 {
     padding-top: 50px;
+    font-family: var(--fonte3);
 
 }
 
@@ -42,6 +56,9 @@ section {
     padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 30px;
+    font-family: var(--fonte2);
+    font-size: 3.5vw;
+    
 
 
 }
@@ -61,7 +78,10 @@ section.imagem {
 
 section.imagem > p {
     background-color: rgba(160, 237, 240, 0.534);
-    width: 300px;
+    display: inline-block;
+    padding: 10px;
+   
+    
 
 
 
