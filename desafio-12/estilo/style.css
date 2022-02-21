@@ -58,9 +58,10 @@ section {
     padding-left: 30px;
     font-family: var(--fonte2);
     font-size: 3.5vw;
-    
 
-
+}
+section > p {
+    padding: 2em;
 }
 
 section.normal {
@@ -71,29 +72,42 @@ section.normal {
 }
 
 section.imagem {
-    background-color: rgba(66, 196, 189, 0.616);
+    background-color: #03272549;
     color: white;
-
-}
-
-section.imagem > p {
-    background-color: rgba(160, 237, 240, 0.534);
-    display: inline-block;
-    padding: 10px;
-   
+    background-size: cover;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.37);
+    background-attachment: fixed;
     
 
 
-
-}  
-
+}
+section#img01 {
+    background-image: url('../imagens/background001.jpg');
+    background-position: right center;
+    
 
 }
+
+section#img02 {
+    background-image: url('../imagens/background002.jpg');
+    
+}
+
+section.imagem > p {
+    background-color: #03272544;
+    display: inline-block;
+    padding: 10px;
+    text-shadow: 1px 1px 0px black;
+    
+    
+}  
 
 footer {
     background-color: black;
     color: white;
     text-align: center;
     padding: 10px;
+    font-size: small;
+    font-size:;
 
 }
